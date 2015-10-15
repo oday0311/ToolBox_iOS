@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA08A8191BCFB187005BCCF4 /* UIPlaceHolderTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = FA08A8181BCFB187005BCCF4 /* UIPlaceHolderTextView.m */; settings = {ASSET_TAGS = (); }; };
+		FA08A81C1BCFB1E3005BCCF4 /* FormattersValidators.m in Sources */ = {isa = PBXBuildFile; fileRef = FA08A81B1BCFB1E3005BCCF4 /* FormattersValidators.m */; settings = {ASSET_TAGS = (); }; };
 		FAAC98A71BC4BF4700954AE6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAAC98A61BC4BF4700954AE6 /* main.m */; };
 		FAAC98AA1BC4BF4700954AE6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAAC98A91BC4BF4700954AE6 /* AppDelegate.m */; };
 		FAAC98AD1BC4BF4700954AE6 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAAC98AC1BC4BF4700954AE6 /* FirstViewController.m */; };
@@ -38,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FA08A8171BCFB187005BCCF4 /* UIPlaceHolderTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIPlaceHolderTextView.h; sourceTree = "<group>"; };
+		FA08A8181BCFB187005BCCF4 /* UIPlaceHolderTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIPlaceHolderTextView.m; sourceTree = "<group>"; };
+		FA08A81A1BCFB1E3005BCCF4 /* FormattersValidators.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FormattersValidators.h; sourceTree = "<group>"; };
+		FA08A81B1BCFB1E3005BCCF4 /* FormattersValidators.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FormattersValidators.m; sourceTree = "<group>"; };
 		FAAC98A21BC4BF4700954AE6 /* ToolBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToolBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAAC98A61BC4BF4700954AE6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FAAC98A81BC4BF4700954AE6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -157,6 +163,10 @@
 		FAAC98DB1BC4C08800954AE6 /* MoreSetting */ = {
 			isa = PBXGroup;
 			children = (
+				FA08A81A1BCFB1E3005BCCF4 /* FormattersValidators.h */,
+				FA08A81B1BCFB1E3005BCCF4 /* FormattersValidators.m */,
+				FA08A8171BCFB187005BCCF4 /* UIPlaceHolderTextView.h */,
+				FA08A8181BCFB187005BCCF4 /* UIPlaceHolderTextView.m */,
 				FAAC98DC1BC4C0A500954AE6 /* MoreViewController.h */,
 				FAAC98DD1BC4C0A500954AE6 /* MoreViewController.m */,
 			);
@@ -294,8 +304,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAAC98B01BC4BF4700954AE6 /* SecondViewController.m in Sources */,
+				FA08A81C1BCFB1E3005BCCF4 /* FormattersValidators.m in Sources */,
 				FAAC98E11BC4C1AC00954AE6 /* MainViewController.m in Sources */,
 				FAAC98AA1BC4BF4700954AE6 /* AppDelegate.m in Sources */,
+				FA08A8191BCFB187005BCCF4 /* UIPlaceHolderTextView.m in Sources */,
 				FAAC98AD1BC4BF4700954AE6 /* FirstViewController.m in Sources */,
 				FAAC98A71BC4BF4700954AE6 /* main.m in Sources */,
 				FAAC98DE1BC4C0A500954AE6 /* MoreViewController.m in Sources */,
@@ -522,6 +534,7 @@
 				FAAC98D41BC4BF4800954AE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FAAC98D51BC4BF4800954AE6 /* Build configuration list for PBXNativeTarget "ToolBoxTests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +543,7 @@
 				FAAC98D71BC4BF4800954AE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FAAC98D81BC4BF4800954AE6 /* Build configuration list for PBXNativeTarget "ToolBoxUITests" */ = {
 			isa = XCConfigurationList;
@@ -538,6 +552,7 @@
 				FAAC98DA1BC4BF4800954AE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
