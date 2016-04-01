@@ -7,8 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FA08A8191BCFB187005BCCF4 /* UIPlaceHolderTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = FA08A8181BCFB187005BCCF4 /* UIPlaceHolderTextView.m */; settings = {ASSET_TAGS = (); }; };
-		FA08A81C1BCFB1E3005BCCF4 /* FormattersValidators.m in Sources */ = {isa = PBXBuildFile; fileRef = FA08A81B1BCFB1E3005BCCF4 /* FormattersValidators.m */; settings = {ASSET_TAGS = (); }; };
+		FA08A8191BCFB187005BCCF4 /* UIPlaceHolderTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = FA08A8181BCFB187005BCCF4 /* UIPlaceHolderTextView.m */; };
+		FA08A81C1BCFB1E3005BCCF4 /* FormattersValidators.m in Sources */ = {isa = PBXBuildFile; fileRef = FA08A81B1BCFB1E3005BCCF4 /* FormattersValidators.m */; };
+		FA1AE4121BD4CC1B006626A9 /* KCOpenUDID.m in Sources */ = {isa = PBXBuildFile; fileRef = FA1AE4111BD4CC1B006626A9 /* KCOpenUDID.m */; };
+		FA1AE41F1BD4D8F3006626A9 /* Base64Transcoder.m in Sources */ = {isa = PBXBuildFile; fileRef = FA1AE4151BD4D8F3006626A9 /* Base64Transcoder.m */; };
+		FA1AE4201BD4D8F3006626A9 /* HSK_CFUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = FA1AE4171BD4D8F3006626A9 /* HSK_CFUtilities.m */; };
+		FA1AE4211BD4D8F3006626A9 /* NSData+Base64Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = FA1AE4191BD4D8F3006626A9 /* NSData+Base64Additions.m */; };
+		FA1AE4221BD4D8F3006626A9 /* NSStream+SKPSMTPExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = FA1AE41B1BD4D8F3006626A9 /* NSStream+SKPSMTPExtensions.m */; };
+		FA1AE4231BD4D8F3006626A9 /* SKPSMTPMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = FA1AE41D1BD4D8F3006626A9 /* SKPSMTPMessage.m */; };
+		FA45762A1BE8C0E500709B05 /* NBImageUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = FA4576291BE8C0E500709B05 /* NBImageUtils.m */; };
+		FA45762D1BE8C56D00709B05 /* DataValidate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA45762C1BE8C56D00709B05 /* DataValidate.m */; };
+		FA5CA67A1C311A210091327A /* PasswdUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5CA6791C311A210091327A /* PasswdUtil.m */; };
+		FA5CA67D1C311A770091327A /* PasswordVerifyUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5CA67C1C311A770091327A /* PasswordVerifyUtil.m */; };
+		FA8869AF1BD0E1DC003EA281 /* SNTouchView.m in Sources */ = {isa = PBXBuildFile; fileRef = FA8869AE1BD0E1DC003EA281 /* SNTouchView.m */; };
+		FA8869B21BD0E329003EA281 /* CustomSegment.m in Sources */ = {isa = PBXBuildFile; fileRef = FA8869B11BD0E329003EA281 /* CustomSegment.m */; };
+		FA8869B51BD0E5B0003EA281 /* RegexKitLite.m in Sources */ = {isa = PBXBuildFile; fileRef = FA8869B41BD0E5B0003EA281 /* RegexKitLite.m */; };
+		FA8869B81BD0EB92003EA281 /* SNUILabel.m in Sources */ = {isa = PBXBuildFile; fileRef = FA8869B71BD0EB92003EA281 /* SNUILabel.m */; };
 		FAAC98A71BC4BF4700954AE6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAAC98A61BC4BF4700954AE6 /* main.m */; };
 		FAAC98AA1BC4BF4700954AE6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAAC98A91BC4BF4700954AE6 /* AppDelegate.m */; };
 		FAAC98AD1BC4BF4700954AE6 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAAC98AC1BC4BF4700954AE6 /* FirstViewController.m */; };
@@ -18,8 +32,10 @@
 		FAAC98B81BC4BF4700954AE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAAC98B61BC4BF4700954AE6 /* LaunchScreen.storyboard */; };
 		FAAC98C31BC4BF4800954AE6 /* ToolBoxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAAC98C21BC4BF4800954AE6 /* ToolBoxTests.m */; };
 		FAAC98CE1BC4BF4800954AE6 /* ToolBoxUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAAC98CD1BC4BF4800954AE6 /* ToolBoxUITests.m */; };
-		FAAC98DE1BC4C0A500954AE6 /* MoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAAC98DD1BC4C0A500954AE6 /* MoreViewController.m */; settings = {ASSET_TAGS = (); }; };
-		FAAC98E11BC4C1AC00954AE6 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAAC98E01BC4C1AC00954AE6 /* MainViewController.m */; settings = {ASSET_TAGS = (); }; };
+		FAAC98DE1BC4C0A500954AE6 /* MoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAAC98DD1BC4C0A500954AE6 /* MoreViewController.m */; };
+		FAAC98E11BC4C1AC00954AE6 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAAC98E01BC4C1AC00954AE6 /* MainViewController.m */; };
+		FAC76C681BF09E3900053E01 /* NBYJuBaoView.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC76C661BF09E3900053E01 /* NBYJuBaoView.m */; };
+		FAC76C691BF09E3900053E01 /* NBYJuBaoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAC76C671BF09E3900053E01 /* NBYJuBaoView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +60,35 @@
 		FA08A8181BCFB187005BCCF4 /* UIPlaceHolderTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIPlaceHolderTextView.m; sourceTree = "<group>"; };
 		FA08A81A1BCFB1E3005BCCF4 /* FormattersValidators.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FormattersValidators.h; sourceTree = "<group>"; };
 		FA08A81B1BCFB1E3005BCCF4 /* FormattersValidators.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FormattersValidators.m; sourceTree = "<group>"; };
+		FA1AE4101BD4CC1B006626A9 /* KCOpenUDID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCOpenUDID.h; sourceTree = "<group>"; };
+		FA1AE4111BD4CC1B006626A9 /* KCOpenUDID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCOpenUDID.m; sourceTree = "<group>"; };
+		FA1AE4141BD4D8F3006626A9 /* Base64Transcoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64Transcoder.h; sourceTree = "<group>"; };
+		FA1AE4151BD4D8F3006626A9 /* Base64Transcoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Base64Transcoder.m; sourceTree = "<group>"; };
+		FA1AE4161BD4D8F3006626A9 /* HSK_CFUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSK_CFUtilities.h; sourceTree = "<group>"; };
+		FA1AE4171BD4D8F3006626A9 /* HSK_CFUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSK_CFUtilities.m; sourceTree = "<group>"; };
+		FA1AE4181BD4D8F3006626A9 /* NSData+Base64Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64Additions.h"; sourceTree = "<group>"; };
+		FA1AE4191BD4D8F3006626A9 /* NSData+Base64Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64Additions.m"; sourceTree = "<group>"; };
+		FA1AE41A1BD4D8F3006626A9 /* NSStream+SKPSMTPExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSStream+SKPSMTPExtensions.h"; sourceTree = "<group>"; };
+		FA1AE41B1BD4D8F3006626A9 /* NSStream+SKPSMTPExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSStream+SKPSMTPExtensions.m"; sourceTree = "<group>"; };
+		FA1AE41C1BD4D8F3006626A9 /* SKPSMTPMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKPSMTPMessage.h; sourceTree = "<group>"; };
+		FA1AE41D1BD4D8F3006626A9 /* SKPSMTPMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKPSMTPMessage.m; sourceTree = "<group>"; };
+		FA4576271BE8C0E500709B05 /* NBImageColorMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBImageColorMatrix.h; sourceTree = "<group>"; };
+		FA4576281BE8C0E500709B05 /* NBImageUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBImageUtils.h; sourceTree = "<group>"; };
+		FA4576291BE8C0E500709B05 /* NBImageUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBImageUtils.m; sourceTree = "<group>"; };
+		FA45762B1BE8C56D00709B05 /* DataValidate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataValidate.h; sourceTree = "<group>"; };
+		FA45762C1BE8C56D00709B05 /* DataValidate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataValidate.m; sourceTree = "<group>"; };
+		FA5CA6781C311A210091327A /* PasswdUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasswdUtil.h; sourceTree = "<group>"; };
+		FA5CA6791C311A210091327A /* PasswdUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasswdUtil.m; sourceTree = "<group>"; };
+		FA5CA67B1C311A770091327A /* PasswordVerifyUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasswordVerifyUtil.h; sourceTree = "<group>"; };
+		FA5CA67C1C311A770091327A /* PasswordVerifyUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasswordVerifyUtil.m; sourceTree = "<group>"; };
+		FA8869AD1BD0E1DC003EA281 /* SNTouchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNTouchView.h; sourceTree = "<group>"; };
+		FA8869AE1BD0E1DC003EA281 /* SNTouchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNTouchView.m; sourceTree = "<group>"; };
+		FA8869B01BD0E329003EA281 /* CustomSegment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomSegment.h; sourceTree = "<group>"; };
+		FA8869B11BD0E329003EA281 /* CustomSegment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomSegment.m; sourceTree = "<group>"; };
+		FA8869B31BD0E5B0003EA281 /* RegexKitLite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegexKitLite.h; sourceTree = "<group>"; };
+		FA8869B41BD0E5B0003EA281 /* RegexKitLite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegexKitLite.m; sourceTree = "<group>"; };
+		FA8869B61BD0EB92003EA281 /* SNUILabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNUILabel.h; sourceTree = "<group>"; };
+		FA8869B71BD0EB92003EA281 /* SNUILabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNUILabel.m; sourceTree = "<group>"; };
 		FAAC98A21BC4BF4700954AE6 /* ToolBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToolBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAAC98A61BC4BF4700954AE6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FAAC98A81BC4BF4700954AE6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -66,6 +111,9 @@
 		FAAC98DD1BC4C0A500954AE6 /* MoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreViewController.m; sourceTree = "<group>"; };
 		FAAC98DF1BC4C1AC00954AE6 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		FAAC98E01BC4C1AC00954AE6 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		FAC76C651BF09E3900053E01 /* NBYJuBaoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBYJuBaoView.h; sourceTree = "<group>"; };
+		FAC76C661BF09E3900053E01 /* NBYJuBaoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBYJuBaoView.m; sourceTree = "<group>"; };
+		FAC76C671BF09E3900053E01 /* NBYJuBaoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NBYJuBaoView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +141,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FA1AE41E1BD4D8F3006626A9 /* SMTPSender */ = {
+			isa = PBXGroup;
+			children = (
+				FA1AE4141BD4D8F3006626A9 /* Base64Transcoder.h */,
+				FA1AE4151BD4D8F3006626A9 /* Base64Transcoder.m */,
+				FA1AE4161BD4D8F3006626A9 /* HSK_CFUtilities.h */,
+				FA1AE4171BD4D8F3006626A9 /* HSK_CFUtilities.m */,
+				FA1AE4181BD4D8F3006626A9 /* NSData+Base64Additions.h */,
+				FA1AE4191BD4D8F3006626A9 /* NSData+Base64Additions.m */,
+				FA1AE41A1BD4D8F3006626A9 /* NSStream+SKPSMTPExtensions.h */,
+				FA1AE41B1BD4D8F3006626A9 /* NSStream+SKPSMTPExtensions.m */,
+				FA1AE41C1BD4D8F3006626A9 /* SKPSMTPMessage.h */,
+				FA1AE41D1BD4D8F3006626A9 /* SKPSMTPMessage.m */,
+			);
+			name = SMTPSender;
+			path = "../../../../suning易购/sourceCode/SuningEBuy/Common/SMTPSender";
+			sourceTree = "<group>";
+		};
 		FAAC98991BC4BF4700954AE6 = {
 			isa = PBXGroup;
 			children = (
@@ -124,6 +190,7 @@
 				FAAC98AF1BC4BF4700954AE6 /* SecondViewController.m */,
 				FAAC98DF1BC4C1AC00954AE6 /* MainViewController.h */,
 				FAAC98E01BC4C1AC00954AE6 /* MainViewController.m */,
+				FA1AE41E1BD4D8F3006626A9 /* SMTPSender */,
 				FAAC98DB1BC4C08800954AE6 /* MoreSetting */,
 				FAAC98B11BC4BF4700954AE6 /* Main.storyboard */,
 				FAAC98B41BC4BF4700954AE6 /* Assets.xcassets */,
@@ -163,6 +230,28 @@
 		FAAC98DB1BC4C08800954AE6 /* MoreSetting */ = {
 			isa = PBXGroup;
 			children = (
+				FAC76C651BF09E3900053E01 /* NBYJuBaoView.h */,
+				FAC76C661BF09E3900053E01 /* NBYJuBaoView.m */,
+				FAC76C671BF09E3900053E01 /* NBYJuBaoView.xib */,
+				FA45762B1BE8C56D00709B05 /* DataValidate.h */,
+				FA45762C1BE8C56D00709B05 /* DataValidate.m */,
+				FA4576271BE8C0E500709B05 /* NBImageColorMatrix.h */,
+				FA4576281BE8C0E500709B05 /* NBImageUtils.h */,
+				FA4576291BE8C0E500709B05 /* NBImageUtils.m */,
+				FA1AE4101BD4CC1B006626A9 /* KCOpenUDID.h */,
+				FA1AE4111BD4CC1B006626A9 /* KCOpenUDID.m */,
+				FA5CA67B1C311A770091327A /* PasswordVerifyUtil.h */,
+				FA5CA67C1C311A770091327A /* PasswordVerifyUtil.m */,
+				FA8869B61BD0EB92003EA281 /* SNUILabel.h */,
+				FA8869B71BD0EB92003EA281 /* SNUILabel.m */,
+				FA5CA6781C311A210091327A /* PasswdUtil.h */,
+				FA5CA6791C311A210091327A /* PasswdUtil.m */,
+				FA8869B31BD0E5B0003EA281 /* RegexKitLite.h */,
+				FA8869B41BD0E5B0003EA281 /* RegexKitLite.m */,
+				FA8869B01BD0E329003EA281 /* CustomSegment.h */,
+				FA8869B11BD0E329003EA281 /* CustomSegment.m */,
+				FA8869AD1BD0E1DC003EA281 /* SNTouchView.h */,
+				FA8869AE1BD0E1DC003EA281 /* SNTouchView.m */,
 				FA08A81A1BCFB1E3005BCCF4 /* FormattersValidators.h */,
 				FA08A81B1BCFB1E3005BCCF4 /* FormattersValidators.m */,
 				FA08A8171BCFB187005BCCF4 /* UIPlaceHolderTextView.h */,
@@ -278,6 +367,7 @@
 			files = (
 				FAAC98B81BC4BF4700954AE6 /* LaunchScreen.storyboard in Resources */,
 				FAAC98B51BC4BF4700954AE6 /* Assets.xcassets in Resources */,
+				FAC76C691BF09E3900053E01 /* NBYJuBaoView.xib in Resources */,
 				FAAC98B31BC4BF4700954AE6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -303,14 +393,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA1AE4201BD4D8F3006626A9 /* HSK_CFUtilities.m in Sources */,
+				FA8869AF1BD0E1DC003EA281 /* SNTouchView.m in Sources */,
+				FAC76C681BF09E3900053E01 /* NBYJuBaoView.m in Sources */,
+				FA1AE4231BD4D8F3006626A9 /* SKPSMTPMessage.m in Sources */,
 				FAAC98B01BC4BF4700954AE6 /* SecondViewController.m in Sources */,
 				FA08A81C1BCFB1E3005BCCF4 /* FormattersValidators.m in Sources */,
+				FA1AE4121BD4CC1B006626A9 /* KCOpenUDID.m in Sources */,
+				FA45762A1BE8C0E500709B05 /* NBImageUtils.m in Sources */,
+				FA8869B51BD0E5B0003EA281 /* RegexKitLite.m in Sources */,
+				FA5CA67A1C311A210091327A /* PasswdUtil.m in Sources */,
 				FAAC98E11BC4C1AC00954AE6 /* MainViewController.m in Sources */,
+				FA5CA67D1C311A770091327A /* PasswordVerifyUtil.m in Sources */,
+				FA8869B21BD0E329003EA281 /* CustomSegment.m in Sources */,
 				FAAC98AA1BC4BF4700954AE6 /* AppDelegate.m in Sources */,
 				FA08A8191BCFB187005BCCF4 /* UIPlaceHolderTextView.m in Sources */,
 				FAAC98AD1BC4BF4700954AE6 /* FirstViewController.m in Sources */,
+				FA45762D1BE8C56D00709B05 /* DataValidate.m in Sources */,
+				FA8869B81BD0EB92003EA281 /* SNUILabel.m in Sources */,
 				FAAC98A71BC4BF4700954AE6 /* main.m in Sources */,
+				FA1AE4211BD4D8F3006626A9 /* NSData+Base64Additions.m in Sources */,
+				FA1AE4221BD4D8F3006626A9 /* NSStream+SKPSMTPExtensions.m in Sources */,
 				FAAC98DE1BC4C0A500954AE6 /* MoreViewController.m in Sources */,
+				FA1AE41F1BD4D8F3006626A9 /* Base64Transcoder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
